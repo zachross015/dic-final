@@ -1,0 +1,15 @@
+# Created at 2022-12-07T12:07:17.900
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2022-12-07T12:07:17.900
+WARNING: Illegal reflective access using Lookup on org.neo4j.internal.unsafe.UnsafeUtil (file:/home/zachary/.m2/repository/org/neo4j/neo4j-unsafe/4.4.5/neo4j-unsafe-4.4.5.jar) to class java.nio.Buffer
+
+# Created at 2022-12-07T12:07:17.901
+WARNING: Please consider reporting this to the maintainers of org.neo4j.internal.unsafe.UnsafeUtil
+
+# Created at 2022-12-07T12:07:17.901
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2022-12-07T12:07:17.901
+WARNING: All illegal access operations will be denied in a future release
+
