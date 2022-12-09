@@ -1,0 +1,958 @@
+2022-12-09 03:56:55.747+0000 INFO  [o.n.i.d.DiagnosticsManager] 
+                                                                ********************************************************************************
+                                                                                             [ System diagnostics ]                             
+                                                                ********************************************************************************
+                                                                --------------------------------------------------------------------------------
+                                                                                         [ System memory information ]                          
+                                                                --------------------------------------------------------------------------------
+                                                                Total Physical memory: 23.42GiB
+                                                                Free Physical memory: 5.958GiB
+                                                                Committed virtual memory: 13.81GiB
+                                                                Total swap space: 2.000GiB
+                                                                Free swap space: 1.997GiB
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                           [ JVM memory information ]                           
+                                                                --------------------------------------------------------------------------------
+                                                                Free  memory: 1.412GiB
+                                                                Total memory: 3.891GiB
+                                                                Max   memory: 5.859GiB
+                                                                Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+                                                                Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+                                                                Memory Pool: CodeHeap 'non-nmethods' (Non-heap memory): committed=2.438MiB, used=1.821MiB, max=5.570MiB, threshold=0B
+                                                                Memory Pool: Metaspace (Non-heap memory): committed=173.1MiB, used=170.6MiB, max=-1B, threshold=0B
+                                                                Memory Pool: CodeHeap 'profiled nmethods' (Non-heap memory): committed=29.44MiB, used=27.67MiB, max=117.2MiB, threshold=0B
+                                                                Memory Pool: Compressed Class Space (Non-heap memory): committed=25.31MiB, used=24.09MiB, max=1.000GiB, threshold=0B
+                                                                Memory Pool: G1 Eden Space (Heap memory): committed=2.441GiB, used=1.762GiB, max=-1B, threshold=?
+                                                                Memory Pool: G1 Old Gen (Heap memory): committed=1.441GiB, used=723.2MiB, max=5.859GiB, threshold=0B
+                                                                Memory Pool: G1 Survivor Space (Heap memory): committed=8.000MiB, used=7.776MiB, max=-1B, threshold=?
+                                                                Memory Pool: CodeHeap 'non-profiled nmethods' (Non-heap memory): committed=14.50MiB, used=14.48MiB, max=117.2MiB, threshold=0B
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                        [ Operating system information ]                        
+                                                                --------------------------------------------------------------------------------
+                                                                Operating System: Linux; version: 5.15.0-56-generic; arch: amd64; cpus: 12
+                                                                Max number of file descriptors: 1048576
+                                                                Number of open file descriptors: 364
+                                                                Process id: 7
+                                                                Byte order: LITTLE_ENDIAN
+                                                                Local timezone: Etc/UTC
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                              [ JVM information ]                               
+                                                                --------------------------------------------------------------------------------
+                                                                VM Name: OpenJDK 64-Bit Server VM
+                                                                VM Vendor: Eclipse Adoptium
+                                                                VM Version: 17.0.5+8
+                                                                JIT compiler: HotSpot 64-Bit Tiered Compilers
+                                                                VM Arguments: [-Dfile.encoding=UTF-8]
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                               [ Java classpath ]                               
+                                                                --------------------------------------------------------------------------------
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-io-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-push-to-cloud-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-lock-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-math3-3.6.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jakarta.activation-api-1.2.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jPowerShell-3.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-unsafe-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-servlet-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/mercator_2.13-0.2.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/reactive-streams-1.0.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jaxb-runtime-2.3.2.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-kernel-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-logical-plans-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-collections-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/javassist-3.25.0-GA.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-lucene-index-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-front-end-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jersey-container-servlet-2.34.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-record-storage-engine-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-io-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-values-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-resource-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-capabilities-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-exceptions-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-bootcheck-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jackson-databind-2.13.4.2.jar
+                                                                 [classpath] /var/lib/neo4j/lib/log4j-layout-template-json-2.19.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-core-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-config-ogdl-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/reactor-core-3.4.24.jar
+                                                                 [classpath] /var/lib/neo4j/conf/*
+                                                                 [classpath] /var/lib/neo4j/lib/netty-common-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/lucene-analysis-common-9.4.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/zstd-proxy-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jackson-module-jaxb-annotations-2.13.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/WMI4Java-1.6.3.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jProcesses-1.6.5.jar
+                                                                 [classpath] /var/lib/neo4j/lib/ipaddress-5.3.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/caffeine-3.1.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-schema-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-collections-3.2.2.jar
+                                                                 [classpath] /var/lib/neo4j/lib/hk2-locator-2.6.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jersey-common-2.34.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jackson-jaxrs-base-2.13.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-token-api-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/zstd-jni-1.5.2-5.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-import-tool-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-configuration2-2.8.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-physical-planning-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-id-generator-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/eclipse-collections-api-11.1.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-native-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jersey-container-servlet-core-2.34.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-runtime-util-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-crypto-hash-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/javax.ws.rs-api-2.1.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/cypher-shell-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-text-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jansi-2.4.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-compress-1.21.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/cypher-ast-factory-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/scala-reflect-2.13.10.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-codec-http-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jline-terminal-3.21.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-wal-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-crypto-core-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/server-api-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-diagnostics-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/lz4-java-1.8.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/log4j-api-2.19.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-buffers-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/lucene-backward-codecs-9.4.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/lucene-core-9.4.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jakarta.ws.rs-api-2.1.6.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jackson-core-2.13.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-resolver-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-monitoring-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-import-util-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-storage-engine-util-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-index-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-fulltext-index-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jline-terminal-jansi-3.21.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/hk2-api-2.6.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-macros-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/slf4j-nop-2.0.3.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-concurrent-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-security-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/istack-commons-runtime-3.0.8.jar
+                                                                 [classpath] /var/lib/neo4j/lib/cypher-literal-interpreter-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-expression-evaluator-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-procedure-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/eclipse-collections-11.1.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-io-2.11.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-expressions-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-lang-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-rewriting-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-event-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/annotations-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-javacc-parser-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-codegen-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-browser-4.4.7.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-crypto-cipher-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-xml-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-codec-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-planner-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jakarta.validation-api-2.0.2.jar
+                                                                 [classpath] /var/lib/neo4j/lib/kiama_2.13-2.5.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/magnolia_2.13-0.17.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jackson-annotations-2.13.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-native-epoll-4.1.84.Final-linux-aarch_64.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-cache-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-ast-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-server-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jctools-core-4.0.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-consistency-check-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-command-line-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-configuration-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jna-5.12.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jakarta.inject-2.6.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-native-kqueue-4.1.84.Final-osx-aarch_64.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-native-epoll-4.1.84.Final-linux-x86_64.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-security-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/hk2-utils-2.6.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/stax-ex-1.8.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/txw2-2.3.2.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jackson-jaxrs-json-provider-2.13.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-planner-spi-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-config-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jline-reader-3.21.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/FastInfoset-1.2.16.jar
+                                                                 [classpath] /var/lib/neo4j/lib/slf4j-api-2.0.3.jar
+                                                                 [classpath] /var/lib/neo4j/lib/argparse4j-0.9.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-server-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-logging-1.2.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-spatial-index-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-layout-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/scala-library-2.13.10.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-graph-algo-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-ssl-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-procedure-api-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/lucene-queryparser-9.4.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-common-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-slotted-runtime-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-buffer-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-logging-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-csv-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-ir-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-graphdb-api-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-classes-epoll-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-java-driver-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-data-collector-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-bolt-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jettison-1.5.1.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-util-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jakarta.annotation-api-1.3.5.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-config-core-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jaxb-api-2.3.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-native-unix-common-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-dbms-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-fabric-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-webapp-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-ast-factory-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/log4j-core-2.19.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-classes-kqueue-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-cypher-interpreted-runtime-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-lang3-3.12.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jetty-http-9.4.49.v20220914.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-util-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-tcnative-classes-2.0.54.Final.jar
+                                                                 [classpath] /plugins/procedure-metapath2vec-1.0.0-SNAPSHOT.jar
+                                                                 [classpath] /var/lib/neo4j/lib/shiro-cache-1.10.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/picocli-4.6.3.jar
+                                                                 [classpath] /var/lib/neo4j/lib/neo4j-kernel-api-5.2.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/javax.servlet-api-3.1.0.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-handler-4.1.84.Final.jar
+                                                                 [classpath] /var/lib/neo4j/lib/commons-beanutils-1.9.4.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jersey-server-2.34.jar
+                                                                 [classpath] /plugins/apoc.jar
+                                                                 [classpath] /var/lib/neo4j/lib/netty-transport-native-kqueue-4.1.84.Final-osx-x86_64.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jersey-client-2.34.jar
+                                                                 [classpath] /var/lib/neo4j/lib/jersey-hk2-2.34.jar
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                                [ Library path ]                                
+                                                                --------------------------------------------------------------------------------
+                                                                /usr/java/packages/lib
+                                                                /usr/lib64
+                                                                /lib64
+                                                                /lib
+                                                                /usr/lib
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                             [ System properties ]                              
+                                                                --------------------------------------------------------------------------------
+                                                                NEO4J_CONF = /var/lib/neo4j/conf
+                                                                sun.jnu.encoding = ANSI_X3.4-1968
+                                                                sun.arch.data.model = 64
+                                                                user.timezone = Etc/UTC
+                                                                sun.java.launcher = SUN_STANDARD
+                                                                user.country = US
+                                                                sun.boot.library.path = /opt/java/openjdk/lib
+                                                                sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/var/lib/neo4j --config-dir=/var/lib/neo4j/conf --console-mode
+                                                                jdk.debug = release
+                                                                sun.cpu.endian = little
+                                                                user.home = /var/lib/neo4j
+                                                                user.language = en
+                                                                file.separator = /
+                                                                sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+                                                                user.name = neo4j
+                                                                path.separator = :
+                                                                file.encoding = UTF-8
+                                                                jnidispatch.path = /var/lib/neo4j/.cache/JNA/temp/jna3395148032389563655.tmp
+                                                                jna.platform.library.path = /usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib
+                                                                jna.loaded = true
+                                                                jetty.git.hash = 4231a3b2e4cb8548a412a789936d640a97b1aa0a
+                                                                user.dir = /var/lib/neo4j
+                                                                native.encoding = ANSI_X3.4-1968
+                                                                sun.io.unicode.encoding = UnicodeLittle
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                      [ (IANA) TimeZone database version ]                      
+                                                                --------------------------------------------------------------------------------
+                                                                  TimeZone version: 2022c (available for 602 zone identifiers)
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                            [ Network information ]                             
+                                                                --------------------------------------------------------------------------------
+                                                                Interface eth0:
+                                                                    address: 172.17.0.2
+                                                                Interface lo:
+                                                                    address: 127.0.0.1
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                         [ Native access information ]                          
+                                                                --------------------------------------------------------------------------------
+                                                                Native access details: Linux native access is available.
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                                [ DBMS config ]                                 
+                                                                --------------------------------------------------------------------------------
+                                                                DBMS provided settings:
+                                                                db.tx_log.rotation.retention_policy=100M size
+                                                                dbms.memory.transaction.total.max=8.00GiB
+                                                                dbms.security.auth_enabled=false
+                                                                dbms.security.procedures.allowlist=*
+                                                                dbms.security.procedures.unrestricted=*
+                                                                internal.dbms.block_size.array_properties=120
+                                                                internal.dbms.block_size.labels=56
+                                                                internal.dbms.block_size.strings=120
+                                                                server.default_listen_address=0.0.0.0
+                                                                server.directories.import=/import
+                                                                server.directories.logs=/logs
+                                                                server.directories.neo4j_home=/var/lib/neo4j
+                                                                server.directories.plugins=/plugins
+                                                                server.memory.pagecache.size=512.00MiB
+                                                                Directories in use:
+                                                                server.directories.data=/var/lib/neo4j/data
+                                                                server.directories.dumps.root=/var/lib/neo4j/data/dumps
+                                                                server.directories.import=/import
+                                                                server.directories.lib=/var/lib/neo4j/lib
+                                                                server.directories.licenses=/var/lib/neo4j/licenses
+                                                                server.directories.logs=/logs
+                                                                server.directories.neo4j_home=/var/lib/neo4j
+                                                                server.directories.plugins=/plugins
+                                                                server.directories.run=/var/lib/neo4j/run
+                                                                server.directories.script.root=/var/lib/neo4j/data/scripts
+                                                                server.directories.transaction.logs.root=/var/lib/neo4j/data/transactions
+                                                                
+                                                                --------------------------------------------------------------------------------
+                                                                                           [ Global Server Identity ]                           
+                                                                --------------------------------------------------------------------------------
+                                                                Registered ServerId{649c6be5}
+                                                                
+2022-12-09 03:56:55.756+0000 INFO  [o.n.i.d.DiagnosticsManager] [system/00000000] 
+                                                                [system/00000000] ********************************************************************************
+                                                                [system/00000000]                               [ Database: system ]                              
+                                                                [system/00000000] ********************************************************************************
+                                                                [system/00000000] Database is started.
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000]                                   [ Version ]                                   
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000] DBMS: community record-aligned-1.1
+                                                                [system/00000000] Kernel version: 5.2.0
+                                                                [system/00000000] 
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000]                                 [ Store files ]                                 
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000] Disk space on partition (Total / Free / Free %): 490577010688 / 243537838080 / 49
+                                                                [system/00000000] Storage files stored on file store: ext4
+                                                                [system/00000000] Storage files: (filename : modification date - size)
+                                                                [system/00000000]   database_lock: 2022-12-08 14:14:42.701+0000 - 0B
+                                                                [system/00000000]   id-buffer.tmp.0: 2022-12-08 20:28:45.121+0000 - 0B
+                                                                [system/00000000]   neostore: 2022-12-08 14:14:42.601+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.counts.db: 2022-12-08 20:28:44.969+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.indexstats.db: 2022-12-08 20:28:44.985+0000 - 48.00KiB
+                                                                [system/00000000]   neostore.labeltokenstore.db: 2022-12-08 14:14:51.081+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.labeltokenstore.db.id: 2022-12-08 20:28:44.949+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.labeltokenstore.db.names: 2022-12-08 14:14:51.081+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.labeltokenstore.db.names.id: 2022-12-08 20:28:44.949+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.nodestore.db: 2022-12-08 14:14:51.069+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.nodestore.db.id: 2022-12-08 20:28:44.925+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.nodestore.db.labels: 2022-12-08 14:14:42.557+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.nodestore.db.labels.id: 2022-12-08 20:28:44.917+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.propertystore.db: 2022-12-08 14:14:51.073+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.propertystore.db.arrays: 2022-12-08 14:14:42.573+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.propertystore.db.arrays.id: 2022-12-08 20:28:44.937+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.propertystore.db.id: 2022-12-08 20:28:44.937+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.propertystore.db.index: 2022-12-08 14:14:51.073+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.propertystore.db.index.id: 2022-12-08 20:28:44.929+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.propertystore.db.index.keys: 2022-12-08 14:14:51.069+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.propertystore.db.index.keys.id: 2022-12-08 20:28:44.925+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.propertystore.db.strings: 2022-12-08 14:14:51.073+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.propertystore.db.strings.id: 2022-12-08 20:28:44.933+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.relationshipgroupstore.db: 2022-12-08 14:14:42.597+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.relationshipgroupstore.db.id: 2022-12-08 20:28:44.957+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.relationshipgroupstore.degrees.db: 2022-12-08 20:28:44.981+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.relationshipstore.db: 2022-12-08 14:14:51.077+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.relationshipstore.db.id: 2022-12-08 20:28:44.941+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.relationshiptypestore.db: 2022-12-08 14:14:51.077+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.relationshiptypestore.db.id: 2022-12-08 20:28:44.945+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.relationshiptypestore.db.names: 2022-12-08 14:14:51.077+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.relationshiptypestore.db.names.id: 2022-12-08 20:28:44.945+0000 - 40.00KiB
+                                                                [system/00000000]   neostore.schemastore.db: 2022-12-08 14:14:51.081+0000 - 8.000KiB
+                                                                [system/00000000]   neostore.schemastore.db.id: 2022-12-08 20:28:44.953+0000 - 40.00KiB
+                                                                [system/00000000]   schema:
+                                                                [system/00000000]     index:
+                                                                [system/00000000]       range-1.0:
+                                                                [system/00000000]         3:
+                                                                [system/00000000]           index-3: 2022-12-08 20:28:45.101+0000 - 48.00KiB
+                                                                [system/00000000]         - Total: 2022-12-08 14:14:45.253+0000 - 48.00KiB
+                                                                [system/00000000]         4:
+                                                                [system/00000000]           index-4: 2022-12-08 20:28:45.105+0000 - 48.00KiB
+                                                                [system/00000000]         - Total: 2022-12-08 14:14:45.289+0000 - 48.00KiB
+                                                                [system/00000000]         7:
+                                                                [system/00000000]           index-7: 2022-12-08 20:28:45.109+0000 - 48.00KiB
+                                                                [system/00000000]         - Total: 2022-12-08 14:14:45.481+0000 - 48.00KiB
+                                                                [system/00000000]         8:
+                                                                [system/00000000]           index-8: 2022-12-08 20:28:45.113+0000 - 48.00KiB
+                                                                [system/00000000]         - Total: 2022-12-08 14:14:45.501+0000 - 48.00KiB
+                                                                [system/00000000]       - Total: 2022-12-08 14:14:45.501+0000 - 192.0KiB
+                                                                [system/00000000]       token-lookup-1.0:
+                                                                [system/00000000]         1:
+                                                                [system/00000000]           index-1: 2022-12-08 20:28:45.085+0000 - 48.00KiB
+                                                                [system/00000000]         - Total: 2022-12-08 14:14:43.065+0000 - 48.00KiB
+                                                                [system/00000000]         2:
+                                                                [system/00000000]           index-2: 2022-12-08 20:28:45.089+0000 - 48.00KiB
+                                                                [system/00000000]         - Total: 2022-12-08 14:14:43.025+0000 - 48.00KiB
+                                                                [system/00000000]       - Total: 2022-12-08 14:14:43.065+0000 - 96.00KiB
+                                                                [system/00000000]     - Total: 2022-12-08 14:14:45.253+0000 - 288.0KiB
+                                                                [system/00000000]   - Total: 2022-12-08 14:14:43.021+0000 - 288.0KiB
+                                                                [system/00000000] Storage summary: 
+                                                                [system/00000000]   Total size of store: 1.070MiB
+                                                                [system/00000000]   Total size of mapped files: 408.0KiB
+                                                                [system/00000000] 
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000]                               [ Transaction log ]                               
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000] Transaction log files stored on file store: ext4
+                                                                [system/00000000] Transaction log files:
+                                                                [system/00000000]  - existing transaction log versions 0-0
+                                                                [system/00000000]  - oldest transaction 2 found in log with version 0
+                                                                [system/00000000]  - files: (filename : creation date - size)
+                                                                [system/00000000]      neostore.transaction.db.0: 2022-12-08 14:14:45.537+0000 - 20.88KiB
+                                                                [system/00000000]  - total size of files: 20.88KiB
+                                                                [system/00000000] Checkpoint log files:
+                                                                [system/00000000]  - existing checkpoint log versions 0-0
+                                                                [system/00000000]  - last checkpoint: CheckpointInfo[transactionLogPosition=LogPosition{logVersion=0, byteOffset=21376}, storeId=StoreId{creationTime=1670508882604, random=5496783252564895125, storageEngineName='record', formatName='aligned', majorVersion=1, minorVersion=1}, checkpointEntryPosition=LogPosition{logVersion=0, byteOffset=3376}, channelPositionAfterCheckpoint=LogPosition{logVersion=0, byteOffset=3608}, checkpointFilePostReadPosition=LogPosition{logVersion=0, byteOffset=3608}, version=KernelVersion{V5_0,version=5}, transactionId=TransactionId[transactionId=36, checksum=-1440874845, commitTimestamp=1670508885539], reason=Checkpoint triggered by "Database shutdown" @ txId: 36]
+                                                                [system/00000000] 
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000]                                   [ Id usage ]                                  
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000] ArrayPropertyStore[neostore.nodestore.db.labels]: used=1 high=0
+                                                                [system/00000000] NodeStore[neostore.nodestore.db]: used=6 high=5
+                                                                [system/00000000] StringPropertyStore[neostore.propertystore.db.index.keys]: used=43 high=42
+                                                                [system/00000000] PropertyIndexStore[neostore.propertystore.db.index]: used=30 high=29
+                                                                [system/00000000] StringPropertyStore[neostore.propertystore.db.strings]: used=3 high=2
+                                                                [system/00000000] ArrayPropertyStore[neostore.propertystore.db.arrays]: used=1 high=0
+                                                                [system/00000000] PropertyStore[neostore.propertystore.db]: used=59 high=58
+                                                                [system/00000000] RelationshipStore[neostore.relationshipstore.db]: used=2 high=1
+                                                                [system/00000000] StringPropertyStore[neostore.relationshiptypestore.db.names]: used=2 high=1
+                                                                [system/00000000] RelationshipTypeStore[neostore.relationshiptypestore.db]: used=1 high=0
+                                                                [system/00000000] StringPropertyStore[neostore.labeltokenstore.db.names]: used=5 high=4
+                                                                [system/00000000] LabelTokenStore[neostore.labeltokenstore.db]: used=4 high=3
+                                                                [system/00000000] SchemaStore[neostore.schemastore.db]: used=11 high=10
+                                                                [system/00000000] RelationshipGroupStore[neostore.relationshipgroupstore.db]: used=1 high=0
+                                                                [system/00000000] NeoStore[neostore]: used=-1 high=-1
+                                                                [system/00000000] 
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000]                                   [ Metadata ]                                  
+                                                                [system/00000000] --------------------------------------------------------------------------------
+                                                                [system/00000000] EXTERNAL_STORE_UUID (Database identifier exposed as external store identity. Generated on creation and never updated): 946733f3-f915-4efa-b6fb-1c3f92dae438
+                                                                [system/00000000] DATABASE_ID (The last used DatabaseId for this database): null
+                                                                [system/00000000] LEGACY_STORE_VERSION (Legacy store format version. This field is used from 5.0 onwards only to distinguish non-migrated pre 5.0 metadata stores.): -3523014627327384477
+                                                                [system/00000000] STORE_ID (Store ID): StoreId{creationTime=1670508882604, random=5496783252564895125, storageEngineName='record', formatName='aligned', majorVersion=1, minorVersion=1}
+                                                                [system/00000000] 
+2022-12-09 03:56:55.762+0000 INFO  [o.n.i.d.DiagnosticsManager] [neo4j/c8389e4b] 
+                                                                [neo4j/c8389e4b] ********************************************************************************
+                                                                [neo4j/c8389e4b]                               [ Database: neo4j ]                               
+                                                                [neo4j/c8389e4b] ********************************************************************************
+                                                                [neo4j/c8389e4b] Database is started.
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b]                                   [ Version ]                                   
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b] DBMS: community record-aligned-1.1
+                                                                [neo4j/c8389e4b] Kernel version: 5.2.0
+                                                                [neo4j/c8389e4b] 
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b]                                 [ Store files ]                                 
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b] Disk space on partition (Total / Free / Free %): 490577010688 / 243537833984 / 49
+                                                                [neo4j/c8389e4b] Storage files stored on file store: ext4
+                                                                [neo4j/c8389e4b] Storage files: (filename : modification date - size)
+                                                                [neo4j/c8389e4b]   database_lock: 2022-12-08 14:26:07.599+0000 - 0B
+                                                                [neo4j/c8389e4b]   id-buffer.tmp.0: 2022-12-08 20:28:47.437+0000 - 0B
+                                                                [neo4j/c8389e4b]   neostore: 2022-12-08 14:25:37.007+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.counts.db: 2022-12-08 20:28:47.421+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.indexstats.db: 2022-12-08 20:28:47.425+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.labeltokenstore.db: 2022-12-08 14:25:37.567+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.labeltokenstore.db.id: 2022-12-08 20:28:47.417+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.labeltokenstore.db.names: 2022-12-08 14:25:37.571+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.labeltokenstore.db.names.id: 2022-12-08 20:28:47.413+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.nodestore.db: 2022-12-08 14:25:39.759+0000 - 1.938MiB
+                                                                [neo4j/c8389e4b]   neostore.nodestore.db.id: 2022-12-08 20:28:47.401+0000 - 48.00KiB
+                                                                [neo4j/c8389e4b]   neostore.nodestore.db.labels: 2022-12-08 14:25:36.871+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.nodestore.db.labels.id: 2022-12-08 20:28:47.397+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db: 2022-12-08 14:25:39.755+0000 - 6.461MiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.arrays: 2022-12-08 14:25:36.895+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.arrays.id: 2022-12-08 20:28:47.409+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.id: 2022-12-08 20:28:47.409+0000 - 48.00KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.index: 2022-12-08 14:25:39.755+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.index.id: 2022-12-08 20:28:47.405+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.index.keys: 2022-12-08 14:25:39.755+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.index.keys.id: 2022-12-08 20:28:47.401+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.strings: 2022-12-08 14:25:38.075+0000 - 8.289MiB
+                                                                [neo4j/c8389e4b]   neostore.propertystore.db.strings.id: 2022-12-08 20:28:47.405+0000 - 48.00KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshipgroupstore.db: 2022-12-08 14:25:39.755+0000 - 16.00KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshipgroupstore.db.id: 2022-12-08 20:28:47.417+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshipgroupstore.degrees.db: 2022-12-08 20:28:47.421+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshipstore.db: 2022-12-08 14:25:39.771+0000 - 8.641MiB
+                                                                [neo4j/c8389e4b]   neostore.relationshipstore.db.id: 2022-12-08 20:28:47.409+0000 - 48.00KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshiptypestore.db: 2022-12-08 14:25:38.331+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshiptypestore.db.id: 2022-12-08 20:28:47.413+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshiptypestore.db.names: 2022-12-08 14:25:38.331+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.relationshiptypestore.db.names.id: 2022-12-08 20:28:47.413+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   neostore.schemastore.db: 2022-12-08 14:25:39.755+0000 - 8.000KiB
+                                                                [neo4j/c8389e4b]   neostore.schemastore.db.id: 2022-12-08 20:28:47.417+0000 - 40.00KiB
+                                                                [neo4j/c8389e4b]   schema:
+                                                                [neo4j/c8389e4b]     index:
+                                                                [neo4j/c8389e4b]       token-lookup-1.0:
+                                                                [neo4j/c8389e4b]         1:
+                                                                [neo4j/c8389e4b]           index-1: 2022-12-08 20:28:47.433+0000 - 112.0KiB
+                                                                [neo4j/c8389e4b]         - Total: 2022-12-08 14:25:39.443+0000 - 112.0KiB
+                                                                [neo4j/c8389e4b]         2:
+                                                                [neo4j/c8389e4b]           index-2: 2022-12-08 20:28:47.437+0000 - 200.0KiB
+                                                                [neo4j/c8389e4b]         - Total: 2022-12-08 14:25:39.551+0000 - 200.0KiB
+                                                                [neo4j/c8389e4b]       - Total: 2022-12-08 14:25:39.551+0000 - 312.0KiB
+                                                                [neo4j/c8389e4b]     - Total: 2022-12-08 14:25:39.439+0000 - 312.0KiB
+                                                                [neo4j/c8389e4b]   - Total: 2022-12-08 14:25:39.439+0000 - 312.0KiB
+                                                                [neo4j/c8389e4b] Storage summary: 
+                                                                [neo4j/c8389e4b]   Total size of store: 26.42MiB
+                                                                [neo4j/c8389e4b]   Total size of mapped files: 25.73MiB
+                                                                [neo4j/c8389e4b] 
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b]                               [ Transaction log ]                               
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b] Transaction log files stored on file store: ext4
+                                                                [neo4j/c8389e4b] Transaction log files:
+                                                                [neo4j/c8389e4b]  - existing transaction log versions 0-0
+                                                                [neo4j/c8389e4b]  - oldest transaction 2 found in log with version 0
+                                                                [neo4j/c8389e4b]  - files: (filename : creation date - size)
+                                                                [neo4j/c8389e4b]      neostore.transaction.db.0: 2022-12-08 14:25:39.263+0000 - 176B
+                                                                [neo4j/c8389e4b]  - total size of files: 176B
+                                                                [neo4j/c8389e4b] Checkpoint log files:
+                                                                [neo4j/c8389e4b]  - existing checkpoint log versions 0-0
+                                                                [neo4j/c8389e4b]  - last checkpoint: CheckpointInfo[transactionLogPosition=LogPosition{logVersion=0, byteOffset=176}, storeId=StoreId{creationTime=1670509537014, random=4829100480172230692, storageEngineName='record', formatName='aligned', majorVersion=1, minorVersion=1}, checkpointEntryPosition=LogPosition{logVersion=0, byteOffset=3376}, channelPositionAfterCheckpoint=LogPosition{logVersion=0, byteOffset=3608}, checkpointFilePostReadPosition=LogPosition{logVersion=0, byteOffset=3608}, version=KernelVersion{V5_0,version=5}, transactionId=TransactionId[transactionId=2, checksum=35288353, commitTimestamp=0], reason=Checkpoint triggered by "Database shutdown" @ txId: 2]
+                                                                [neo4j/c8389e4b] 
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b]                                   [ Id usage ]                                  
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b] ArrayPropertyStore[neostore.nodestore.db.labels]: used=1 high=0
+                                                                [neo4j/c8389e4b] NodeStore[neostore.nodestore.db]: used=135408 high=135407
+                                                                [neo4j/c8389e4b] StringPropertyStore[neostore.propertystore.db.index.keys]: used=22 high=21
+                                                                [neo4j/c8389e4b] PropertyIndexStore[neostore.propertystore.db.index]: used=12 high=11
+                                                                [neo4j/c8389e4b] StringPropertyStore[neostore.propertystore.db.strings]: used=67905 high=67904
+                                                                [neo4j/c8389e4b] ArrayPropertyStore[neostore.propertystore.db.arrays]: used=1 high=0
+                                                                [neo4j/c8389e4b] PropertyStore[neostore.propertystore.db]: used=164384 high=164383
+                                                                [neo4j/c8389e4b] RelationshipStore[neostore.relationshipstore.db]: used=265440 high=265439
+                                                                [neo4j/c8389e4b] StringPropertyStore[neostore.relationshiptypestore.db.names]: used=3 high=2
+                                                                [neo4j/c8389e4b] RelationshipTypeStore[neostore.relationshiptypestore.db]: used=2 high=1
+                                                                [neo4j/c8389e4b] StringPropertyStore[neostore.labeltokenstore.db.names]: used=4 high=3
+                                                                [neo4j/c8389e4b] LabelTokenStore[neostore.labeltokenstore.db]: used=3 high=2
+                                                                [neo4j/c8389e4b] SchemaStore[neostore.schemastore.db]: used=3 high=2
+                                                                [neo4j/c8389e4b] RelationshipGroupStore[neostore.relationshipgroupstore.db]: used=522 high=521
+                                                                [neo4j/c8389e4b] NeoStore[neostore]: used=-1 high=-1
+                                                                [neo4j/c8389e4b] 
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b]                                   [ Metadata ]                                  
+                                                                [neo4j/c8389e4b] --------------------------------------------------------------------------------
+                                                                [neo4j/c8389e4b] EXTERNAL_STORE_UUID (Database identifier exposed as external store identity. Generated on creation and never updated): 1336caaf-14d1-4204-afbd-315c7bb01f8c
+                                                                [neo4j/c8389e4b] DATABASE_ID (The last used DatabaseId for this database): null
+                                                                [neo4j/c8389e4b] LEGACY_STORE_VERSION (Legacy store format version. This field is used from 5.0 onwards only to distinguish non-migrated pre 5.0 metadata stores.): -3523014627327384477
+                                                                [neo4j/c8389e4b] STORE_ID (Store ID): StoreId{creationTime=1670509537014, random=4829100480172230692, storageEngineName='record', formatName='aligned', majorVersion=1, minorVersion=1}
+                                                                [neo4j/c8389e4b] 
+2022-12-09 03:56:55.734+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x5ea647e1, L:/172.17.0.2:7687 - R:/172.17.0.1:44672]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.764+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x353610b1, L:/172.17.0.2:7687 - R:/172.17.0.1:44684]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.766+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x2af46ad6, L:/172.17.0.2:7687 - R:/172.17.0.1:44700]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.767+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0xafa31361, L:/172.17.0.2:7687 - R:/172.17.0.1:44702]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.769+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x52ce81de, L:/172.17.0.2:7687 - R:/172.17.0.1:44704]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.771+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x34b3b449, L:/172.17.0.2:7687 - R:/172.17.0.1:44706]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.773+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x879b5fc7, L:/172.17.0.2:7687 - R:/172.17.0.1:44722]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.775+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x1fc4ffb2, L:/172.17.0.2:7687 - R:/172.17.0.1:44732]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.777+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x1c551075, L:/172.17.0.2:7687 - R:/172.17.0.1:44748]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+2022-12-09 03:56:55.780+0000 ERROR [o.n.b.p.c.h.ProtocolHandshakeHandler] Fatal error occurred during protocol handshaking: [id: 0x4f00e442, L:/172.17.0.2:7687 - R:/172.17.0.1:44758]
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:363) ~[netty-buffer-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:58) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at org.neo4j.bolt.protocol.common.handler.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:68) ~[neo4j-bolt-5.2.0.jar:5.2.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:256) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:526) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
